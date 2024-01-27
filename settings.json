@@ -1,0 +1,83 @@
+{
+    "C_Cpp.clang_format_fallbackStyle": "Google",
+    "C_Cpp.default.cStandard": "c17",
+    "C_Cpp.default.compilerPath": "cl.exe",
+    "C_Cpp.default.cppStandard": "c++17",
+    "C_Cpp.doxygen.generatedStyle": "/**",
+    "C_Cpp.vcFormat.newLine.beforeOpenBrace.function": "sameLine",
+    "C_Cpp.vcFormat.newLine.beforeOpenBrace.lambda": "sameLine",
+    "C_Cpp.vcFormat.newLine.beforeOpenBrace.namespace": "sameLine",
+    "C_Cpp.vcFormat.newLine.beforeOpenBrace.type": "sameLine",
+    "C_Cpp.vcFormat.newLine.beforeWhileInDoWhile": true,
+    "C_Cpp.vcFormat.newLine.closeBraceSameLine.emptyFunction": true,
+    "C_Cpp.vcFormat.newLine.closeBraceSameLine.emptyType": true,
+    "C_Cpp.vcFormat.newLine.scopeBracesOnSeparateLines": true,
+    "C_Cpp.vcFormat.space.afterCastCloseParenthesis": true,
+    "C_Cpp.vcFormat.space.preserveInInitializerList": false,
+    "[javascript]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    "[javascriptreact]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    "[typescript]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    "[typescriptreact]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    "breadcrumbs.enabled": false,
+    "cmake.configureOnOpen": true,
+    "cmake.options.statusBarVisibility": "compact",
+    "cmake.showOptionsMovedNotification": false,
+    "editor.fontFamily": "'Cascadia Code', Consolas, 'Courier New', monospace",
+    "editor.formatOnSave": true,
+    "editor.glyphMargin": false,
+    "editor.hideCursorInOverviewRuler": true,
+    "editor.lineNumbers": "relative",
+    "editor.linkedEditing": true,
+    "editor.minimap.enabled": false,
+    "editor.overviewRulerBorder": false,
+    "editor.scrollbar.vertical": "hidden",
+    "editor.wordWrap": "on",
+    "editor.wordWrapColumn": 100,
+    "editor.wrappingIndent": "indent",
+    "insertDateString.format": "YYYY-MM-DD hh:mm",
+    "prettier.tabWidth": 4,
+    "prettier.useTabs": false,
+    "security.allowedUNCHosts": [
+        "172.16.1.6",
+        "192.168.8.140"
+    ],
+    "security.workspace.trust.untrustedFiles": "open",
+    "settingsSync.keybindingsPerPlatform": false,
+    "telemetry.telemetryLevel": "off",
+    "terminal.integrated.fontFamily": "CodeNewRoman NFM",
+    "todotxtmode.todoFilename": "TODO.txt",
+    "vim.camelCaseMotion.enable": true, // <leader> + (w|e|b)
+    "vim.cursorStylePerMode.insert": "line-thin",
+    "vim.cursorStylePerMode.normal": "block",
+    "vim.cursorStylePerMode.replace": "underline",
+    "vim.cursorStylePerMode.visual": "block",
+    "vim.cursorStylePerMode.visualblock": "block",
+    "vim.foldfix": true, // corrige mov. cuando hay código plegado
+    "vim.hlsearch": true, // realta resultados de la búsqueda
+    "vim.leader": "<space>", // original: "\\"
+    "vim.statusBarColorControl": true,
+    "vim.surround": true,
+    "vim.useCtrlKeys": false,
+    "vim.useSystemClipboard": true,
+    "window.menuBarVisibility": "toggle",
+    "workbench.activityBar.location": "top",
+    "workbench.colorCustomizations": {
+        "statusBar.background": "#005f5f",
+        "statusBar.debuggingBackground": "#005f5f",
+        "statusBar.debuggingForeground": "#ffffff",
+        "statusBar.foreground": "#ffffff",
+        "statusBar.noFolderBackground": "#005f5f"
+    },
+    "workbench.colorTheme": "One Dark Pro",
+    "workbench.editor.showTabs": "none",
+    "workbench.iconTheme": "material-icon-theme",
+    "workbench.statusBar.visible": true
+}
