@@ -1,14 +1,16 @@
 {
-    "C_Cpp.clang_format_fallbackStyle": "Google",
+    "C_Cpp.clang_format_fallbackStyle": "{ BasedOnStyle: Google, UseTab: Never, IndentWidth: 4, TabWidth: 4, AllowShortIfStatementsOnASingleLine: true, AllowShortLoopsOnASingleLine: true, IndentCaseLabels: true, ColumnLimit: 0, NamespaceIndentation: All, FixNamespaceComments: false }",
     "C_Cpp.default.cStandard": "c17",
     "C_Cpp.default.compilerPath": "cl.exe",
     "C_Cpp.default.cppStandard": "c++17",
+    "C_Cpp.default.intelliSenseMode": "windows-msvc-x86",
     "C_Cpp.doxygen.generatedStyle": "/**",
+    "C_Cpp.vcFormat.newLine.beforeElse": false,
+    "C_Cpp.vcFormat.newLine.beforeOpenBrace.block": "sameLine",
     "C_Cpp.vcFormat.newLine.beforeOpenBrace.function": "sameLine",
     "C_Cpp.vcFormat.newLine.beforeOpenBrace.lambda": "sameLine",
     "C_Cpp.vcFormat.newLine.beforeOpenBrace.namespace": "sameLine",
     "C_Cpp.vcFormat.newLine.beforeOpenBrace.type": "sameLine",
-    "C_Cpp.vcFormat.newLine.beforeWhileInDoWhile": true,
     "C_Cpp.vcFormat.newLine.closeBraceSameLine.emptyFunction": true,
     "C_Cpp.vcFormat.newLine.closeBraceSameLine.emptyType": true,
     "C_Cpp.vcFormat.newLine.scopeBracesOnSeparateLines": true,
@@ -30,6 +32,7 @@
     "cmake.configureOnOpen": true,
     "cmake.options.statusBarVisibility": "compact",
     "cmake.showOptionsMovedNotification": false,
+    "editor.foldingStrategy": "indentation",
     "editor.fontFamily": "'Cascadia Code', Consolas, 'Courier New', monospace",
     "editor.formatOnSave": true,
     "editor.glyphMargin": false,
@@ -39,6 +42,7 @@
     "editor.minimap.enabled": false,
     "editor.overviewRulerBorder": false,
     "editor.scrollbar.vertical": "hidden",
+    "editor.tabSize": 4,
     "editor.wordWrap": "on",
     "editor.wordWrapColumn": 100,
     "editor.wrappingIndent": "indent",
@@ -63,7 +67,7 @@
     "vim.foldfix": true, // corrige mov. cuando hay código plegado
     "vim.hlsearch": true, // realta resultados de la búsqueda
     "vim.leader": "<space>", // original: "\\"
-    "vim.statusBarColorControl": true,
+    "vim.statusBarColorControl": false,
     "vim.surround": true,
     "vim.useCtrlKeys": false,
     "vim.useSystemClipboard": true,
