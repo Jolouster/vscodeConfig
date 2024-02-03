@@ -49,10 +49,7 @@
     "insertDateString.format": "YYYY-MM-DD hh:mm",
     "prettier.tabWidth": 4,
     "prettier.useTabs": false,
-    "security.allowedUNCHosts": [
-        "172.16.1.6",
-        "192.168.8.140"
-    ],
+    "security.allowedUNCHosts": ["172.16.1.6", "192.168.8.140"],
     "security.workspace.trust.untrustedFiles": "open",
     "settingsSync.keybindingsPerPlatform": false,
     "telemetry.telemetryLevel": "off",
@@ -83,5 +80,6 @@
     "workbench.colorTheme": "One Dark Pro",
     "workbench.editor.showTabs": "none",
     "workbench.iconTheme": "material-icon-theme",
-    "workbench.statusBar.visible": true
+    "workbench.statusBar.visible": true,
+    "prettier.enable": false
 }
